@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maths Quiz!!</title>
+        <link rel="stylesheet" href="gamePage.css">
+        <link rel="stylesheet" href="loginPage.css">
+        <script src="gamePage.js"></script>
+    </head>
+    <body onload="setText()"><!--add functions when you made them-->
+        <p id="player1Score"></p>
+        <p id="player2Score"></p>
+        <center>
+            <p id="title">
+                Maths Quiz!!
+            </p>
+            <span>
+                <p id="questionTurn"><b id="name1"></b></p>
+                <p id="answerTurn"></p>
+            </span>
+            <div>
+                <div class="pink"><p class="pinkP">_____</p></div>
+                <p id="displayQuestion"></p>
+                <input type="number" id="answerInput" placeholder="Type here...">
+                <button id="checkButton" onclick="check()">Check</button>
+                <br>
+                <br>
+            </div>
+            <br>
+            <br>
+            <p>Number 1</p>
+            <input type="number" id="number1Input" placeholder="Type here...">
+            <br>
+            <p>Number 2</p>
+            <input type="number" id="number2Input" placeholder="Type here...">
+            <br>
+            <br>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="btn btn-primary" id="sendButton" onclick="send()">Send</button>
+            <br>
+            <br>
+            <br>
+            <img id="bottomIMG" src="https://th.bing.com/th/id/R.c110e1144cf1ee3d6f44094673d1d1b7?rik=kwm%2bD1woIJaYvw&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fyco%2f6jz%2fyco6jzqgi.png&ehk=RGWYsvvUZGUmc42QI86mdQNOwxTXoHGshyW2pbDoDZ8%3d&risl=&pid=ImgRaw&r=0">
+        </center>
+    </body>
+</html>
